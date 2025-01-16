@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnSendLink" type="id" />
+    <item name="tvStatus" type="id" />
+    <item name="videoView" type="id" />
+    <item name="tvEmail" type="id" />
+</resources>

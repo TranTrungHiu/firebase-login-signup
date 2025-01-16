@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:clickable="true"
+    android:focusable="true"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/icon_account" />
+
+    <LinearLayout
+        android:id="@+id/input_form"
+        android:layout_width="376dp"
+        android:layout_height="187dp"
+        android:layout_below="@id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/label_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="USER NAME"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#4E342E"
+            android:textStyle="bold"
+            tools:text="USER NAME" />
+
+        <EditText
+            android:id="@+id/input_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autofillHints="Enter username ..."
+            android:background="@drawable/rounded_edittext"
+            android:fontFamily="monospace"
+            android:hint="Enter username"
+            android:inputType="text"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/label_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="monospace"
+            android:text="PASSWORD"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#4E342E"
+            android:textStyle="bold"
+            tools:text="PASSWORD" />
+
+        <EditText
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autofillHints="Enter password"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Enter password"
+            android:inputType="textPassword"
+            android:padding="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="220dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rounded_corner"
+            android:fontFamily="monospace"
+            android:padding="12dp"
+            android:text="SIGN IN"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#424242"
+            tools:text="SIGN IN" />
+
+        <Button
+            android:id="@+id/button_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rounded_corner"
+            android:fontFamily="monospace"
+            android:padding="12dp"
+            android:text="SIGN UP"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#424242"
+            tools:text="SIGN UP" />
+
+        <Button
+            android:id="@+id/button_loginbygooogle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rounded_corner"
+            android:fontFamily="monospace"
+            android:padding="12dp"
+            android:text="SIGN IN BY GOOGLE"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#424242"
+            tools:text="SIGN UP BY GOOGLE" />
+    </LinearLayout>
+
+</RelativeLayout>
