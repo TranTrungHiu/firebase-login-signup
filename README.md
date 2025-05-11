@@ -75,12 +75,3 @@
 ### Bước 2: Cấu Hình Ứng Dụng Android
 
 1. Thêm các dependencies Firebase trong file `build.gradle`:
-
-```gradle
-dependencies {
-    implementation 'com.google.firebase:firebase-auth:21.0.5'
-    implementation 'com.google.firebase:firebase-database:20.0.4'
-    implementation 'com.google.firebase:firebase-storage:20.0.0'
-    implementation 'com.google.firebase:firebase-firestore:24.4.2'
-    implementation 'com.google.firebase:firebase-analytics:21.0.0'
-}
